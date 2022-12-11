@@ -1,0 +1,11 @@
+<template><div><h1 id="git" tabindex="-1"><a class="header-anchor" href="#git" aria-hidden="true">#</a> git</h1>
+<h2 id="git的概念" tabindex="-1"><a class="header-anchor" href="#git的概念" aria-hidden="true">#</a> git的概念</h2>
+<p>Git 是一个版本控制系统，是任何软件开发项目中的主要内容。通常有两个主要用途：代码备份和代码版本控制。你可以逐步处理代码，在需要回滚到备份副本的过程中保存每一步的进度！</p>
+<h2 id="git配置" tabindex="-1"><a class="header-anchor" href="#git配置" aria-hidden="true">#</a> git配置</h2>
+<p>可以保存 Git 用户名和电子邮件，这样就不必在以后的 Git 命令中再次输入它们。<br>
+在命令行中配置本地仓库的账号和邮箱：</p>
+<div class="language-git line-numbers-mode" data-ext="git"><pre v-pre class="language-git"><code><span class="token command">$ git config<span class="token parameter"> --global</span> user.name </span><span class="token string">"wupx"</span>  
+<span class="token command">$ git config<span class="token parameter"> --global</span> user.email </span><span class="token string">"wupx@qq.com"</span>  
+</code></pre><div class="line-numbers" aria-hidden="true"><div class="line-number"></div><div class="line-number"></div></div></div></div></template>
+
+

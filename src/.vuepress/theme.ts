@@ -3,7 +3,7 @@ import { enNavbar, zhNavbar } from "./navbar/index.js";
 import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "",
 
   author: {
     name: "只会博文疾走",
@@ -14,9 +14,13 @@ export default hopeTheme({
 
   logo: "/logo.png",
 
-  repo: "vuepress-theme-hope/vuepress-theme-hope",
+  // repo: "",
 
-  docsDir: "docs",
+  // docsRepo:"https://github.com/zhihuibowenjizo/blog",
+
+  // docsDir: "/tree/",
+
+  // docsBranch:"",
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
