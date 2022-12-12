@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-557bef05","path":"/tag/%E4%BA%A4%E6%8D%A2%E6%9C%BA/","title":"交换机 标签","lang":"zh-CN","frontmatter":{"title":"交换机 标签","blog":{"type":"category","name":"交换机","key":"tag"},"layout":"Blog"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{e as data};

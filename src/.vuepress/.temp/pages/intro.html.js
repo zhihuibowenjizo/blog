@@ -1,14 +1,1 @@
-export const data = JSON.parse("{\"key\":\"v-184f4da6\",\"path\":\"/intro.html\",\"title\":\"介绍页\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"info\"},\"headers\":[],\"readingTime\":{\"minutes\":0.07,\"words\":20},\"filePathRelative\":\"intro.md\",\"excerpt\":\"<h1> 介绍页</h1>\\n<p>将你的个人介绍和档案放置在此处。</p>\\n\"}")
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
+export const data = JSON.parse("{\"key\":\"v-184f4da6\",\"path\":\"/intro.html\",\"title\":\"介绍页\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"info\"},\"headers\":[],\"git\":{\"createdTime\":1670737509000,\"updatedTime\":1670737509000,\"contributors\":[{\"name\":\"zhihuibowenjizo\",\"email\":\"1121234199@qq.com\",\"commits\":1}]},\"readingTime\":{\"minutes\":0.07,\"words\":20},\"localizedDate\":\"2022年12月11日\",\"filePathRelative\":\"intro.md\",\"excerpt\":\"<h1> 介绍页</h1>\\n<p>将你的个人介绍和档案放置在此处。</p>\\n\"}")

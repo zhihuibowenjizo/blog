@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-2577ed03","path":"/category/%E7%AE%A1%E7%90%86%E5%B7%A5%E5%85%B7/","title":"管理工具 分类","lang":"zh-CN","frontmatter":{"title":"管理工具 分类","blog":{"type":"category","name":"管理工具","key":"category"},"layout":"Blog"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{e as data};
