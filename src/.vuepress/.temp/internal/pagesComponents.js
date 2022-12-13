@@ -103,4 +103,8 @@ export const pagesComponents = {
   "v-3aafda76": defineAsyncComponent(() => import(/* webpackChunkName: "v-3aafda76" */"C:/Users/工业物联网/Desktop/blog/src/.vuepress/.temp/pages/tag/弯曲的/index.html.vue")),
   // path: /tag/%E9%95%BF/
   "v-624a9248": defineAsyncComponent(() => import(/* webpackChunkName: "v-624a9248" */"C:/Users/工业物联网/Desktop/blog/src/.vuepress/.temp/pages/tag/长/index.html.vue")),
+  // path: /posts/Linux/Linux%E8%BF%9B%E7%A8%8B.html
+  "v-a6e6d3b0": defineAsyncComponent(() => import(/* webpackChunkName: "v-a6e6d3b0" */"C:/Users/工业物联网/Desktop/blog/src/.vuepress/.temp/pages/posts/Linux/Linux进程.html.vue")),
+  // path: /posts/Linux/ps%E6%8C%87%E4%BB%A4.html
+  "v-35d94e09": defineAsyncComponent(() => import(/* webpackChunkName: "v-35d94e09" */"C:/Users/工业物联网/Desktop/blog/src/.vuepress/.temp/pages/posts/Linux/ps指令.html.vue")),
 }

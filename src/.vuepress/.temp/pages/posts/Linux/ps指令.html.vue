@@ -1,0 +1,31 @@
+<template><div><h1 id="进程管理指令" tabindex="-1"><a class="header-anchor" href="#进程管理指令" aria-hidden="true">#</a> 进程管理指令</h1>
+<h2 id="ps-option" tabindex="-1"><a class="header-anchor" href="#ps-option" aria-hidden="true">#</a> ps [OPTION]</h2>
+<ul>
+<li>选项
+<ul>
+<li>a 显示与终端有关的进程</li>
+<li>x 显示与终端无关联的进程</li>
+<li>u 显示进程更详细的信息</li>
+<li>f 用树状结构显示进程的关系</li>
+<li>o 显示特定的内容(pid,tty...)</li>
+<li>k 对属性排序，在要排序的属性前加-,表示倒序</li>
+<li>L 表示ps支持的所有属性</li>
+</ul>
+</li>
+</ul>
+<h2 id="uptime" tabindex="-1"><a class="header-anchor" href="#uptime" aria-hidden="true">#</a> uptime</h2>
+<p>显示当前时间，系统已启动的时间、当前上线人数，系统平均负载(1、5、10分钟的平均负载，一般不会超过1)</p>
+<ul>
+<li>系统平均负载：
+指在特定时间间隔内运行队列中的平均进程数</li>
+<li>通常每个内核当前活动进程数不大于3为良好。(假如是双核cpu，那系统平均负载要低于6)</li>
+</ul>
+<h1 id="top" tabindex="-1"><a class="header-anchor" href="#top" aria-hidden="true">#</a> top</h1>
+<p>更全的、实时的进程信息
+包含了 uptime指令的内容
+包含 进程状态
+包含 cpu 时间分配
+包含 内存使用的信息</p>
+</div></template>
+
+

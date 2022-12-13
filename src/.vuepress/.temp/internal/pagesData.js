@@ -101,4 +101,8 @@ export const pagesData = {
   "v-3aafda76": () => import(/* webpackChunkName: "v-3aafda76" */"C:/Users/工业物联网/Desktop/blog/src/.vuepress/.temp/pages/tag/弯曲的/index.html.js").then(({ data }) => data),
   // path: /tag/%E9%95%BF/
   "v-624a9248": () => import(/* webpackChunkName: "v-624a9248" */"C:/Users/工业物联网/Desktop/blog/src/.vuepress/.temp/pages/tag/长/index.html.js").then(({ data }) => data),
+  // path: /posts/Linux/Linux%E8%BF%9B%E7%A8%8B.html
+  "v-a6e6d3b0": () => import(/* webpackChunkName: "v-a6e6d3b0" */"C:/Users/工业物联网/Desktop/blog/src/.vuepress/.temp/pages/posts/Linux/Linux进程.html.js").then(({ data }) => data),
+  // path: /posts/Linux/ps%E6%8C%87%E4%BB%A4.html
+  "v-35d94e09": () => import(/* webpackChunkName: "v-35d94e09" */"C:/Users/工业物联网/Desktop/blog/src/.vuepress/.temp/pages/posts/Linux/ps指令.html.js").then(({ data }) => data),
 }
