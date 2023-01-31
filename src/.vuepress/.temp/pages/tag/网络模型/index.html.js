@@ -1,0 +1,14 @@
+export const data = JSON.parse("{\"key\":\"v-4524cf49\",\"path\":\"/tag/%E7%BD%91%E7%BB%9C%E6%A8%A1%E5%9E%8B/\",\"title\":\"网络模型 标签\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"网络模型 标签\",\"blog\":{\"type\":\"category\",\"name\":\"网络模型\",\"key\":\"tag\"},\"layout\":\"Blog\"},\"headers\":[],\"readingTime\":{\"minutes\":0,\"words\":0},\"filePathRelative\":null,\"excerpt\":\"\"}")
+
+if (import.meta.webpackHot) {
+  import.meta.webpackHot.accept()
+  if (__VUE_HMR_RUNTIME__.updatePageData) {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  }
+}
+
+if (import.meta.hot) {
+  import.meta.hot.accept(({ data }) => {
+    __VUE_HMR_RUNTIME__.updatePageData(data)
+  })
+}
