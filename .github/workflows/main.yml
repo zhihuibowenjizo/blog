@@ -1,0 +1,15 @@
+name: my_website
+
+on:
+  push:
+    branches:[ main ]
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on:ubuntu-latest
+    steps:
+      - uses:
+    
+    
+    
