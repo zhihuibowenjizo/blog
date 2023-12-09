@@ -9,7 +9,9 @@ export default defineUserConfig({
   title: "XD的blog",
   //description: "vuepress-theme-hope 的博客演示",
 
+  dest: 'dist'
+  
   theme,
-
+  
   shouldPrefetch: false,
 });
