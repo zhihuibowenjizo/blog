@@ -30,7 +30,7 @@ jobs:
           username: ${{secrets.USERNAME}}
           password: ${{secrets.PASSWORD}}
           port: 22
-          source: "-a src/.vuepress/dist"
+          source: "src/.vuepress/dist/*"
           target: "/text"
           
     
