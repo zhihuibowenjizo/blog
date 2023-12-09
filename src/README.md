@@ -4,9 +4,10 @@ layout: Blog
 icon: home
 title: 博客主页
 heroImage: /logo.png
-heroText: 只会博文疾走的博客
+bgImage: /bg.png
+heroText: 只会波纹疾走的博客
 heroFullScreen: true
-tagline: 这只是测试
+tagline: hello world
 projects:
   - icon: project
     name: alist
@@ -38,7 +39,7 @@ projects:
   #   desc: 自定义详细介绍
   #   link: https://你的自定义链接
 
-footer: 自定义你的页脚文字
+footer: 到底了
 ---
 
 <!-- 这是一个博客主页的案例。

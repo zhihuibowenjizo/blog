@@ -2,14 +2,37 @@ name: my_website
 
 on:
   push:
-    branches:[ main ]
+    branches: [ main ]
   workflow_dispatch:
 
 jobs:
   build:
-    runs-on:ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-      - uses:
+      - name: "代码拉取"
+        uses: actions/checkout@v2
+
+      - name: install Node.js
+        uses: actions/setup-node@v2.5.0
+        with:
+          node-version: "14.X"
+
+      - name: install dep
+        run: npm install
+      
+      - name: build app
+        run: npm run build
+
+      - name: copy file
+        uses: appleboy/scp-action@master
+        with:
+          host: blog.zghtools.top
+          username: ${{secrets.USERNAME}}
+          password: ${{secrets.PASSWORD}}
+          port: 22
+          source: "src/.vuepress/dist"
+          target: "/text"
+          
     
     
     

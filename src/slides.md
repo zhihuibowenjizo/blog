@@ -2,6 +2,7 @@
 title: 幻灯片页
 icon: slides
 layout: Slide
+publist: false
 ---
 
 <!-- markdownlint-disable MD024 MD033 MD051 -->

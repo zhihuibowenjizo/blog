@@ -1,0 +1,48 @@
+<template><div><h1 id="docker" tabindex="-1"><a class="header-anchor" href="#docker" aria-hidden="true">#</a> docker</h1>
+<h2 id="docker-参数解释" tabindex="-1"><a class="header-anchor" href="#docker-参数解释" aria-hidden="true">#</a> docker 参数解释</h2>
+<p>-i 交互式命令操作
+-t 开启预估终端</p>
+<p>-d 后台运行</p>
+<p>--rm 容器挂掉后自动被删除</p>
+<p>--name 给容器起名字</p>
+<p>指定端口映射 -p  宿主机端口:容器端口</p>
+<p>随机端口映射  -P    随机使用宿主机没有使用的端口映射容器使用的端口</p>
+<h2 id="docker-切换不同的发行版" tabindex="-1"><a class="header-anchor" href="#docker-切换不同的发行版" aria-hidden="true">#</a> docker 切换不同的发行版</h2>
+<p>使用docker ，可以切换不同的发行版，但是linux内核 使用的 都是宿主机内核</p>
+<h2 id="docker-镜像定义" tabindex="-1"><a class="header-anchor" href="#docker-镜像定义" aria-hidden="true">#</a> docker 镜像定义</h2>
+<p>docker 镜像不包含linux内核，和宿主机公用
+docker 镜像想运行，最基础的需要一个发行版平台，再来安装我们想要的依赖环境!</p>
+<h2 id="docker容器管理" tabindex="-1"><a class="header-anchor" href="#docker容器管理" aria-hidden="true">#</a> docker容器管理</h2>
+<p>docker run 等于创建 + 启动</p>
+<p>docker run 镜像名，如果镜像不存在本地，则会去下载该镜像</p>
+<p>注意： 容器内的进程必须处于前台运行状态，否则容器会直接退出</p>
+<p>如果容器内什么事情也没做，容器也会挂掉</p>
+<h3 id="查看容器日志" tabindex="-1"><a class="header-anchor" href="#查看容器日志" aria-hidden="true">#</a> 查看容器日志</h3>
+<p>docker logs （-f） 容器id</p>
+<h3 id="进入正在运行的容器空间内" tabindex="-1"><a class="header-anchor" href="#进入正在运行的容器空间内" aria-hidden="true">#</a> 进入正在运行的容器空间内</h3>
+<p>docker exec -it 容器id bash</p>
+<h3 id="查看容器详细信息-用于高级调试" tabindex="-1"><a class="header-anchor" href="#查看容器详细信息-用于高级调试" aria-hidden="true">#</a> 查看容器详细信息，用于高级调试</h3>
+<p>docker container inspect  容器id</p>
+<h3 id="提交容器" tabindex="-1"><a class="header-anchor" href="#提交容器" aria-hidden="true">#</a> 提交容器</h3>
+<p>docker commit 容器id 新的镜像名</p>
+<h1 id="dockerfile" tabindex="-1"><a class="header-anchor" href="#dockerfile" aria-hidden="true">#</a> dockerfile</h1>
+<p>dockerfile 文件名必须是dockerfile</p>
+<p>使用dockerfile 构建 docker 镜像： docker build .</p>
+<p>修改镜像名称 ： docker tag 镜像id 要改的名字</p>
+<h3 id="dockerfile-主要组成部分" tabindex="-1"><a class="header-anchor" href="#dockerfile-主要组成部分" aria-hidden="true">#</a> dockerfile 主要组成部分</h3>
+<p>基础镜像信息 FROM centos:6.8</p>
+<p>制作镜像操作指令 RUN yum install openssh-server -y</p>
+<p>容器启动时执行指令 CMD [&quot;/bin/bash&quot;]</p>
+<h2 id="dockerfile-基础指令" tabindex="-1"><a class="header-anchor" href="#dockerfile-基础指令" aria-hidden="true">#</a> dockerfile 基础指令</h2>
+<p>FROM  指定基础镜像</p>
+<p>MAINTAINER 指定维护者信息</p>
+<p>RUN 在命令前面加上RUN</p>
+<p>ADD 添加宿主机的文件到容器内，自动解压</p>
+<p>COPY 作用和ADD 是一样的，但是仅拷贝，不会解压</p>
+<p>WORKDIR 设置当前工作目录</p>
+<p>VOLUME 设置卷，挂载主机目录</p>
+<p>EXPOSE 指定对外端口</p>
+<p>CMD  指定容器启动后要干的事情</p>
+</div></template>
+
+

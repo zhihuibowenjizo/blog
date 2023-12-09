@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-b7d62b20\",\"path\":\"/tag/%E6%8A%80%E5%B7%A7/\",\"title\":\"技巧 标签\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"技巧 标签\",\"blog\":{\"type\":\"category\",\"name\":\"技巧\",\"key\":\"tag\"},\"layout\":\"Blog\"},\"headers\":[],\"git\":{},\"readingTime\":{\"minutes\":0,\"words\":0},\"filePathRelative\":null,\"excerpt\":\"\"}")

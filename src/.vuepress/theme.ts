@@ -5,8 +5,10 @@ import { enSidebar, zhSidebar } from "./sidebar/index.js";
 export default hopeTheme({
   hostname: "",
 
+  
+
   author: {
-    name: "只会博文疾走",
+    name: "只会波纹疾走",
     url: "#",
   },
 

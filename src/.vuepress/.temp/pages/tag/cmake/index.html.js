@@ -1,0 +1,1 @@
+export const data = JSON.parse("{\"key\":\"v-3f71e568\",\"path\":\"/tag/cmake/\",\"title\":\"cmake 标签\",\"lang\":\"zh-CN\",\"frontmatter\":{\"title\":\"cmake 标签\",\"blog\":{\"type\":\"category\",\"name\":\"cmake\",\"key\":\"tag\"},\"layout\":\"Blog\"},\"headers\":[],\"git\":{},\"readingTime\":{\"minutes\":0,\"words\":0},\"filePathRelative\":null,\"excerpt\":\"\"}")

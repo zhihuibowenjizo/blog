@@ -1,13 +1,13 @@
 import { defineClientConfig } from "@vuepress/client";
 import { h } from "vue";
 
-import { useStyleTag } from "C:/Users/zhaoguohao/Desktop/blog/node_modules/vuepress-plugin-components/lib/client/vueuse.js";
-import Badge from "C:/Users/zhaoguohao/Desktop/blog/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
-import FontIcon from "C:/Users/zhaoguohao/Desktop/blog/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
-import BackToTop from "C:/Users/zhaoguohao/Desktop/blog/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
+import { useStyleTag } from "D:/Desktop/blog/node_modules/vuepress-plugin-components/lib/client/vueuse.js";
+import Badge from "D:/Desktop/blog/node_modules/vuepress-plugin-components/lib/client/components/Badge.js";
+import FontIcon from "D:/Desktop/blog/node_modules/vuepress-plugin-components/lib/client/components/FontIcon.js";
+import BackToTop from "D:/Desktop/blog/node_modules/vuepress-plugin-components/lib/client/components/BackToTop.js";
 
 
-import "C:/Users/zhaoguohao/Desktop/blog/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
+import "D:/Desktop/blog/node_modules/vuepress-plugin-components/lib/client/styles/sr-only.scss";
 
 export default defineClientConfig({
   enhance: ({ app }) => {

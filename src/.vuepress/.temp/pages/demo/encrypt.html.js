@@ -1,14 +1,1 @@
-export const data = JSON.parse("{\"key\":\"v-c151bf32\",\"path\":\"/demo/encrypt.html\",\"title\":\"密码加密的文章\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"lock\",\"category\":[\"使用指南\"],\"tag\":[\"文章加密\"]},\"headers\":[],\"readingTime\":{\"minutes\":0.52,\"words\":156},\"filePathRelative\":\"demo/encrypt.md\"}")
-
-if (import.meta.webpackHot) {
-  import.meta.webpackHot.accept()
-  if (__VUE_HMR_RUNTIME__.updatePageData) {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  }
-}
-
-if (import.meta.hot) {
-  import.meta.hot.accept(({ data }) => {
-    __VUE_HMR_RUNTIME__.updatePageData(data)
-  })
-}
+export const data = JSON.parse("{\"key\":\"v-c151bf32\",\"path\":\"/demo/encrypt.html\",\"title\":\"密码加密的文章\",\"lang\":\"zh-CN\",\"frontmatter\":{\"icon\":\"lock\",\"category\":[\"使用指南\"],\"tag\":[\"文章加密\"]},\"headers\":[],\"git\":{\"createdTime\":1670737509000,\"updatedTime\":1670737509000,\"contributors\":[{\"name\":\"zhihuibowenjizo\",\"email\":\"1121234199@qq.com\",\"commits\":1}]},\"readingTime\":{\"minutes\":0.52,\"words\":156},\"localizedDate\":\"2022年12月11日\",\"filePathRelative\":\"demo/encrypt.md\"}")
