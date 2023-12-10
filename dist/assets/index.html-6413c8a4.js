@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-1e661331","path":"/tag/%E5%86%B2%E7%AA%81%E5%9F%9F/","title":"冲突域 标签","lang":"zh-CN","frontmatter":{"title":"冲突域 标签","blog":{"type":"category","name":"冲突域","key":"tag"},"layout":"Blog"},"headers":[],"git":{},"readingTime":{"minutes":0,"words":0},"filePathRelative":null,"excerpt":""}');export{e as data};
