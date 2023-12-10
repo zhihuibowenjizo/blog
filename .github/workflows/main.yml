@@ -31,7 +31,7 @@ jobs:
           password: ${{secrets.PASSWORD}}
           port: 22
           source: "dist/"
-          target: "/text"
+          target: "/www/server/apache/htdocs"
           strip_components: 1
           rm : true
           
