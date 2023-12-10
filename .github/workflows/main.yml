@@ -33,6 +33,7 @@ jobs:
           source: "dist/"
           target: "/text"
           strip_components: 1
+          rm : true
           
     
     
